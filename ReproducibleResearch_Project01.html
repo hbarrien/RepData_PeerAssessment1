@@ -156,9 +156,9 @@ png(filename = paste0(dataDir, &quot;plot3.png&quot;), width=960, height=480, un
 plot(medianTotalStepsPerDay$date, medianTotalStepsPerDay$median.steps.per.day, type = &quot;l&quot;, xlab = &quot;Date&quot;, ylab = &quot;Median&quot;, main = &quot;Median of Total Steps Per Day Without NAs&quot;)
 dev.off()</code></pre>
 <p><strong>Figures:</strong></p>
-<p>PLOT 1</p>
-<p>PLOT 2</p>
-<p>PLOT 3</p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot1.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot1.png" style="max-width:100%;"></a> </p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot2.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot2.png" style="max-width:100%;"></a> </p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot3.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot3.png" style="max-width:100%;"></a> </p>
 </div>
 <div id="what-is-the-average-daily-activity-pattern" class="section level3">
 <h3>3. What is the average daily activity pattern?</h3>
@@ -186,7 +186,7 @@ meanPer5MinInterval[order(meanPer5MinInterval$mean.steps.per.5min, decreasing = 
 <pre class="r"><code>Answer to question 3.2
 &gt; meanPer5MinInterval[order(meanPer5MinInterval$mean.steps.per.5min, decreasing = TRUE)[1],]$interval
 [1] 835</code></pre>
-<p>PLOT 4</p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot4.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot4.png" style="max-width:100%;"></a> </p>
 </div>
 <div id="imputing-missing-values" class="section level3">
 <h3>4. Imputing missing values</h3>
@@ -253,9 +253,9 @@ Yes. Means and medians present peaks.
 
 What is the impact of imputing missing data on the estimates of the total daily number of steps?
 Depending on the filling strategy applied, the resulting walking pattern may end up being irreal.</code></pre>
-<p>PLOT 5</p>
-<p>PLOT 6</p>
-<p>PLOT 7</p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot5.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot5.png" style="max-width:100%;"></a> </p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot6.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot6.png" style="max-width:100%;"></a> </p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot7.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot7.png" style="max-width:100%;"></a> </p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level3">
 <h3>5. Are there differences in activity patterns between weekdays and weekends?</h3>
@@ -289,7 +289,7 @@ ggplot(totalStepsPerDayOfWeek, aes(x=interval, y=mean.steps.per.5min)) +
 
 dev.off()</code></pre>
 <p><strong>Figures:</strong></p>
-<p>PLOT 8</p>
+<p><a href="/hbarrien/RepData_PeerAssessment1/blob/master/instructions_fig/dataplot8.png" target="_blank"><img src="/hbarrien/RepData_PeerAssessment1/raw/master/instructions_fig/dataplot8.png" style="max-width:100%;"></a> </p>
 </div>
 </div>
 
