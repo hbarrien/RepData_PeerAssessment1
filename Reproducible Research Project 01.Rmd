@@ -109,11 +109,11 @@ dev.off()
 
 **Figures:**
 
-PLOT 1
+![Sample panel plot](instructions_fig/dataplot1.png) 
 
-PLOT 2
+![Sample panel plot](instructions_fig/dataplot2.png) 
 
-PLOT 3
+![Sample panel plot](instructions_fig/dataplot3.png) 
 
 
 ###3. What is the average daily activity pattern?
@@ -151,7 +151,7 @@ Answer to question 3.2
 [1] 835
 ```
 
-PLOT 4
+![Sample panel plot](instructions_fig/dataplot4.png) 
 
 ###4. Imputing missing values
 
@@ -229,11 +229,11 @@ What is the impact of imputing missing data on the estimates of the total daily 
 Depending on the filling strategy applied, the resulting walking pattern may end up being irreal.
 ```
 
-PLOT 5
+![Sample panel plot](instructions_fig/dataplot5.png) 
 
-PLOT 6
+![Sample panel plot](instructions_fig/dataplot6.png) 
 
-PLOT 7
+![Sample panel plot](instructions_fig/dataplot7.png) 
 
 ###5. Are there differences in activity patterns between weekdays and weekends?
 **Note:** Use the dataset with the filled-in missing values for this part.
@@ -275,4 +275,4 @@ dev.off()
 
 **Figures:**
 
-PLOT 8
+![Sample panel plot](instructions_fig/dataplot8.png) 
