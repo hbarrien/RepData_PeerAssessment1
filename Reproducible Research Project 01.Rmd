@@ -6,9 +6,7 @@ output: html_document
 ---
 
 ## Reproducible Research Project 01
-
 ###Author: Herbert Barrientos
-
 ###Date: February 6, 2016
 
 ###Introduction
